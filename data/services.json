@@ -1,0 +1,1010 @@
+[
+  {
+    "value": "Action Groups",
+    "label": "Action Groups"
+  },
+  {
+    "value": "Activity Logs & Alerts",
+    "label": "Activity Logs & Alerts"
+  },
+  {
+    "value": "Advisor",
+    "label": "Advisor"
+  },
+  {
+    "value": "Alerts",
+    "label": "Alerts"
+  },
+  {
+    "value": "API Management",
+    "label": "API Management"
+  },
+  {
+    "value": "App Service",
+    "label": "App Service"
+  },
+  {
+    "value": "Alerts & Metrics",
+    "label": "Alerts & Metrics"
+  },
+  {
+    "value": "App Service (Linux)",
+    "label": "App Service (Linux)"
+  },
+  {
+    "value": "App Service (Linux) \\ Web App for Containers",
+    "label": "App Service (Linux) \\ Web App for Containers"
+  },
+  {
+    "value": "App Service \\ Web Apps",
+    "label": "App Service \\ Web Apps"
+  },
+  {
+    "value": "App Service (Linux) \\ Web Apps",
+    "label": "App Service (Linux) \\ Web Apps"
+  },
+  {
+    "value": "Application Gateway",
+    "label": "Application Gateway"
+  },
+  {
+    "value": "Application Gateway \\ Application Gateway for Containers",
+    "label": "Application Gateway \\ Application Gateway for Containers"
+  },
+  {
+    "value": "Application Insights",
+    "label": "Application Insights"
+  },
+  {
+    "value": "Automation",
+    "label": "Automation"
+  },
+  {
+    "value": "AutoScale",
+    "label": "AutoScale"
+  },
+  {
+    "value": "Azure Active Directory",
+    "label": "Azure Active Directory"
+  },
+  {
+    "value": "Azure Active Directory \\ Enterprise State Roaming",
+    "label": "Azure Active Directory \\ Enterprise State Roaming"
+  },
+  {
+    "value": "Azure Active Directory B2C",
+    "label": "Azure Active Directory B2C"
+  },
+  {
+    "value": "Azure Active Directory Domain Services",
+    "label": "Azure Active Directory Domain Services"
+  },
+  {
+    "value": "Azure AI Language",
+    "label": "Azure AI Language"
+  },
+  {
+    "value": "Azure Analysis Services",
+    "label": "Azure Analysis Services"
+  },
+  {
+    "value": "Azure API for FHIR",
+    "label": "Azure API for FHIR"
+  },
+  {
+    "value": "Azure App Configuration",
+    "label": "Azure App Configuration"
+  },
+  {
+    "value": "Azure Applied AI Services",
+    "label": "Azure Applied AI Services"
+  },
+  {
+    "value": "Azure Arc enabled data services",
+    "label": "Azure Arc enabled data services"
+  },
+  {
+    "value": "Azure Applied AI Services \\ Azure Video Indexer",
+    "label": "Azure Applied AI Services \\ Azure Video Indexer"
+  },
+  {
+    "value": "Azure Arc enabled Kubernetes",
+    "label": "Azure Arc enabled Kubernetes"
+  },
+  {
+    "value": "Azure Arc enabled servers",
+    "label": "Azure Arc enabled servers"
+  },
+  {
+    "value": "Azure Arc enabled VMware vSphere",
+    "label": "Azure Arc enabled VMware vSphere"
+  },
+  {
+    "value": "Azure Arc site manager",
+    "label": "Azure Arc site manager"
+  },
+  {
+    "value": "Azure Automanage",
+    "label": "Azure Automanage"
+  },
+  {
+    "value": "Azure Bastion",
+    "label": "Azure Bastion"
+  },
+  {
+    "value": "Azure Blueprints",
+    "label": "Azure Blueprints"
+  },
+  {
+    "value": "Azure Bot Service",
+    "label": "Azure Bot Service"
+  },
+  {
+    "value": "Azure Carbon Optimization",
+    "label": "Azure Carbon Optimization"
+  },
+  {
+    "value": "Azure Center for SAP solutions",
+    "label": "Azure Center for SAP solutions"
+  },
+  {
+    "value": "Azure Chaos Studio",
+    "label": "Azure Chaos Studio"
+  },
+  {
+    "value": "Azure Communication Services",
+    "label": "Azure Communication Services"
+  },
+  {
+    "value": "Azure Communications Gateway",
+    "label": "Azure Communications Gateway"
+  },
+  {
+    "value": "Azure Compute Fleet",
+    "label": "Azure Compute Fleet"
+  },
+  {
+    "value": "Azure confidential ledger",
+    "label": "Azure confidential ledger"
+  },
+  {
+    "value": "Azure Container Apps",
+    "label": "Azure Container Apps"
+  },
+  {
+    "value": "Azure Container Registry",
+    "label": "Azure Container Registry"
+  },
+  {
+    "value": "Azure Container Service",
+    "label": "Azure Container Service"
+  },
+  {
+    "value": "Azure Container Storage",
+    "label": "Azure Container Storage"
+  },
+  {
+    "value": "Azure Cosmos DB",
+    "label": "Azure Cosmos DB"
+  },
+  {
+    "value": "Azure Cosmos DB for PostgreSQL",
+    "label": "Azure Cosmos DB for PostgreSQL"
+  },
+  {
+    "value": "Azure Data Explorer",
+    "label": "Azure Data Explorer"
+  },
+  {
+    "value": "Azure Data Lake Storage Gen1",
+    "label": "Azure Data Lake Storage Gen1"
+  },
+  {
+    "value": "Azure Data Lake Storage Gen2",
+    "label": "Azure Data Lake Storage Gen2"
+  },
+  {
+    "value": "Azure Data Manager for Energy",
+    "label": "Azure Data Manager for Energy"
+  },
+  {
+    "value": "Azure Data Share",
+    "label": "Azure Data Share"
+  },
+  {
+    "value": "Azure Database for MariaDB",
+    "label": "Azure Database for MariaDB"
+  },
+  {
+    "value": "Azure Database for MySQL",
+    "label": "Azure Database for MySQL"
+  },
+  {
+    "value": "Azure Database for MySQL flexible servers",
+    "label": "Azure Database for MySQL flexible servers"
+  },
+  {
+    "value": "Azure Database for PostgreSQL",
+    "label": "Azure Database for PostgreSQL"
+  },
+  {
+    "value": "Azure Database for PostgreSQL flexible servers",
+    "label": "Azure Database for PostgreSQL flexible servers"
+  },
+  {
+    "value": "Azure Database Migration Service",
+    "label": "Azure Database Migration Service"
+  },
+  {
+    "value": "Azure Databricks",
+    "label": "Azure Databricks"
+  },
+  {
+    "value": "Azure DDoS Protection",
+    "label": "Azure DDoS Protection"
+  },
+  {
+    "value": "Azure Dedicated Host",
+    "label": "Azure Dedicated Host"
+  },
+  {
+    "value": "Azure Deployment Environments",
+    "label": "Azure Deployment Environments"
+  },
+  {
+    "value": "Azure DevOps",
+    "label": "Azure DevOps"
+  },
+  {
+    "value": "Azure DevOps \\ Artifacts",
+    "label": "Azure DevOps \\ Artifacts"
+  },
+  {
+    "value": "Azure DevOps \\ Boards",
+    "label": "Azure DevOps \\ Boards"
+  },
+  {
+    "value": "Azure DevOps \\ Pipelines",
+    "label": "Azure DevOps \\ Pipelines"
+  },
+  {
+    "value": "Azure DevOps \\ Repos",
+    "label": "Azure DevOps \\ Repos"
+  },
+  {
+    "value": "Azure DevOps \\ Test Plans",
+    "label": "Azure DevOps \\ Test Plans"
+  },
+  {
+    "value": "Azure DevTest Labs",
+    "label": "Azure DevTest Labs"
+  },
+  {
+    "value": "Azure Digital Twins",
+    "label": "Azure Digital Twins"
+  },
+  {
+    "value": "Azure DNS",
+    "label": "Azure DNS"
+  },
+  {
+    "value": "Azure DNS Private Zones",
+    "label": "Azure DNS Private Zones"
+  },
+  {
+    "value": "Azure FarmBeats",
+    "label": "Azure FarmBeats"
+  },
+  {
+    "value": "Azure File Sync",
+    "label": "Azure File Sync"
+  },
+  {
+    "value": "Azure Firewall",
+    "label": "Azure Firewall"
+  },
+  {
+    "value": "Azure Firewall Manager",
+    "label": "Azure Firewall Manager"
+  },
+  {
+    "value": "Azure Fluid Relay",
+    "label": "Azure Fluid Relay"
+  },
+  {
+    "value": "Azure Frontdoor",
+    "label": "Azure Frontdoor"
+  },
+  {
+    "value": "Azure Health Data Services",
+    "label": "Azure Health Data Services"
+  },
+  {
+    "value": "Azure HPC Cache",
+    "label": "Azure HPC Cache"
+  },
+  {
+    "value": "Azure Immersive Reader",
+    "label": "Azure Immersive Reader"
+  },
+  {
+    "value": "Azure Information Protection",
+    "label": "Azure Information Protection"
+  },
+  {
+    "value": "Azure IoT Hub",
+    "label": "Azure IoT Hub"
+  },
+  {
+    "value": "Azure Key Vault Managed HSM",
+    "label": "Azure Key Vault Managed HSM"
+  },
+  {
+    "value": "Azure Kubernetes Service (AKS)",
+    "label": "Azure Kubernetes Service (AKS)"
+  },
+  {
+    "value": "Azure Kubernetes Service On Azure Stack HCI",
+    "label": "Azure Kubernetes Service On Azure Stack HCI"
+  },
+  {
+    "value": "Azure Lab Services",
+    "label": "Azure Lab Services"
+  },
+  {
+    "value": "Azure Load Testing",
+    "label": "Azure Load Testing"
+  },
+  {
+    "value": "Azure Managed Applications",
+    "label": "Azure Managed Applications"
+  },
+  {
+    "value": "Azure Managed Grafana",
+    "label": "Azure Managed Grafana"
+  },
+  {
+    "value": "Azure Managed Instance for Apache Cassandra",
+    "label": "Azure Managed Instance for Apache Cassandra"
+  },
+  {
+    "value": "Azure Managed Lustre",
+    "label": "Azure Managed Lustre"
+  },
+  {
+    "value": "Azure Maps",
+    "label": "Azure Maps"
+  },
+  {
+    "value": "Azure Metrics Advisor",
+    "label": "Azure Metrics Advisor"
+  },
+  {
+    "value": "Azure Migrate",
+    "label": "Azure Migrate"
+  },
+  {
+    "value": "Azure Monitor",
+    "label": "Azure Monitor"
+  },
+  {
+    "value": "Azure Monitor for SAP solutions",
+    "label": "Azure Monitor for SAP solutions"
+  },
+  {
+    "value": "Azure Netapp Files",
+    "label": "Azure Netapp Files"
+  },
+  {
+    "value": "Azure Network Function Manager - Device",
+    "label": "Azure Network Function Manager - Device"
+  },
+  {
+    "value": "Azure Network Function Manager - Network Function",
+    "label": "Azure Network Function Manager - Network Function"
+  },
+  {
+    "value": "Azure Open Datasets",
+    "label": "Azure Open Datasets"
+  },
+  {
+    "value": "Azure OpenAI Service",
+    "label": "Azure OpenAI Service"
+  },
+  {
+    "value": "Azure Operator Insights",
+    "label": "Azure Operator Insights"
+  },
+  {
+    "value": "Azure Orbital",
+    "label": "Azure Orbital"
+  },
+  {
+    "value": "Azure Peering Service",
+    "label": "Azure Peering Service"
+  },
+  {
+    "value": "Azure Policy",
+    "label": "Azure Policy"
+  },
+  {
+    "value": "Azure Private 5G Core",
+    "label": "Azure Private 5G Core"
+  },
+  {
+    "value": "Azure Private Link",
+    "label": "Azure Private Link"
+  },
+  {
+    "value": "Azure Programmable Connectivity",
+    "label": "Azure Programmable Connectivity"
+  },
+  {
+    "value": "Azure public MEC",
+    "label": "Azure public MEC"
+  },
+  {
+    "value": "Azure Purview",
+    "label": "Azure Purview"
+  },
+  {
+    "value": "Azure Quantum",
+    "label": "Azure Quantum"
+  },
+  {
+    "value": "Azure Reservations",
+    "label": "Azure Reservations"
+  },
+  {
+    "value": "Azure Red Hat OpenShift",
+    "label": "Azure Red Hat OpenShift"
+  },
+  {
+    "value": "Azure Resource Manager",
+    "label": "Azure Resource Manager"
+  },
+  {
+    "value": "Azure Resource Mover",
+    "label": "Azure Resource Mover"
+  },
+  {
+    "value": "Azure Route Server",
+    "label": "Azure Route Server"
+  },
+  {
+    "value": "Azure Search",
+    "label": "Azure Search"
+  },
+  {
+    "value": "Azure Sentinel",
+    "label": "Azure Sentinel"
+  },
+  {
+    "value": "Azure Service Health",
+    "label": "Azure Service Health"
+  },
+  {
+    "value": "Azure SignalR Service",
+    "label": "Azure SignalR Service"
+  },
+  {
+    "value": "Azure SignalR Service Replica",
+    "label": "Azure SignalR Service Replica"
+  },
+  {
+    "value": "Azure Spatial Anchors",
+    "label": "Azure Spatial Anchors"
+  },
+  {
+    "value": "Azure Sphere",
+    "label": "Azure Sphere"
+  },
+  {
+    "value": "Azure Spring Cloud",
+    "label": "Azure Spring Cloud"
+  },
+  {
+    "value": "Azure SQL Migration extension for Azure Data Studio powered by Azure Database Migration Service",
+    "label": "Azure SQL Migration extension for Azure Data Studio powered by Azure Database Migration Service"
+  },
+  {
+    "value": "Azure Stack",
+    "label": "Azure Stack"
+  },
+  {
+    "value": "Azure Stack Edge",
+    "label": "Azure Stack Edge"
+  },
+  {
+    "value": "Azure Stack HCI",
+    "label": "Azure Stack HCI"
+  },
+  {
+    "value": "Azure Static Web Apps",
+    "label": "Azure Static Web Apps"
+  },
+  {
+    "value": "Azure Synapse Analytics",
+    "label": "Azure Synapse Analytics"
+  },
+  {
+    "value": "Azure Video Analyzer",
+    "label": "Azure Video Analyzer"
+  },
+  {
+    "value": "Azure Virtual Network Manager",
+    "label": "Azure Virtual Network Manager"
+  },
+  {
+    "value": "Azure VMware Solution",
+    "label": "Azure VMware Solution"
+  },
+  {
+    "value": "Azure VMware Solution by CloudSimple",
+    "label": "Azure VMware Solution by CloudSimple"
+  },
+  {
+    "value": "Azure Web PubSub",
+    "label": "Azure Web PubSub"
+  },
+  {
+    "value": "Backup",
+    "label": "Backup"
+  },
+  {
+    "value": "BareMetal Infrastructure",
+    "label": "BareMetal Infrastructure"
+  },
+  {
+    "value": "Batch",
+    "label": "Batch"
+  },
+  {
+    "value": "CDN",
+    "label": "CDN"
+  },
+  {
+    "value": "Change Analysis",
+    "label": "Change Analysis"
+  },
+  {
+    "value": "Cloud Services",
+    "label": "Cloud Services"
+  },
+  {
+    "value": "Cloud Shell",
+    "label": "Cloud Shell"
+  },
+  {
+    "value": "Cognitive Services \\ Anomaly Detector",
+    "label": "Cognitive Services \\ Anomaly Detector"
+  },
+  {
+    "value": "Cognitive Services \\ Azure Form Recognizer",
+    "label": "Cognitive Services \\ Azure Form Recognizer"
+  },
+  {
+    "value": "Cognitive Services \\ Azure Metrics Advisor",
+    "label": "Cognitive Services \\ Azure Metrics Advisor"
+  },
+  {
+    "value": "Cognitive Services \\ Bing Autosuggest API",
+    "label": "Cognitive Services \\ Bing Autosuggest API"
+  },
+  {
+    "value": "Cognitive Services \\ Bing Search API",
+    "label": "Cognitive Services \\ Bing Search API"
+  },
+  {
+    "value": "Cognitive Services \\ Bing Speech API",
+    "label": "Cognitive Services \\ Bing Speech API"
+  },
+  {
+    "value": "Cognitive Services \\ Bing Spell Check API",
+    "label": "Cognitive Services \\ Bing Spell Check API"
+  },
+  {
+    "value": "Cognitive Services \\ Bing Video Search API",
+    "label": "Cognitive Services \\ Bing Video Search API"
+  },
+  {
+    "value": "Cognitive Services \\ Bing Visual Search API",
+    "label": "Cognitive Services \\ Bing Visual Search API"
+  },
+  {
+    "value": "Cognitive Services \\ Bing Web Search API",
+    "label": "Cognitive Services \\ Bing Web Search API"
+  },
+  {
+    "value": "Cognitive Services \\ Computer Vision API",
+    "label": "Cognitive Services \\ Computer Vision API"
+  },
+  {
+    "value": "Cognitive Services \\ Content Moderator API",
+    "label": "Cognitive Services \\ Content Moderator API"
+  },
+  {
+    "value": "Cognitive Services \\ Custom Vision API",
+    "label": "Cognitive Services \\ Custom Vision API"
+  },
+  {
+    "value": "Cognitive Services \\ Face API",
+    "label": "Cognitive Services \\ Face API"
+  },
+  {
+    "value": "Cognitive Services \\ Form Recognizer API",
+    "label": "Cognitive Services \\ Form Recognizer API"
+  },
+  {
+    "value": "Cognitive Services \\ Image Search API",
+    "label": "Cognitive Services \\ Image Search API"
+  },
+  {
+    "value": "Cognitive Services \\ Language Understanding (LUIS)",
+    "label": "Cognitive Services \\ Language Understanding (LUIS)"
+  },
+  {
+    "value": "Cognitive Services \\ News Search API",
+    "label": "Cognitive Services \\ News Search API"
+  },
+  {
+    "value": "Cognitive Services \\ Personalizer API",
+    "label": "Cognitive Services \\ Personalizer API"
+  },
+  {
+    "value": "Cognitive Services \\ QnA Maker API",
+    "label": "Cognitive Services \\ QnA Maker API"
+  },
+  {
+    "value": "Cognitive Services \\ Speaker Recognition API",
+    "label": "Cognitive Services \\ Speaker Recognition API"
+  },
+  {
+    "value": "Cognitive Services \\ Speech Services API",
+    "label": "Cognitive Services \\ Speech Services API"
+  },
+  {
+    "value": "Cognitive Services \\ Translator Speech API",
+    "label": "Cognitive Services \\ Translator Speech API"
+  },
+  {
+    "value": "Cognitive Services \\ Translator Text API",
+    "label": "Cognitive Services \\ Translator Text API"
+  },
+  {
+    "value": "Container Instances",
+    "label": "Container Instances"
+  },
+  {
+    "value": "Container Registry",
+    "label": "Container Registry"
+  },
+  {
+    "value": "Cost Management",
+    "label": "Cost Management"
+  },
+  {
+    "value": "Data Catalog",
+    "label": "Data Catalog"
+  },
+  {
+    "value": "Data Factory",
+    "label": "Data Factory"
+  },
+  {
+    "value": "Data Factory V1",
+    "label": "Data Factory V1"
+  },
+  {
+    "value": "Data Lake Analytics",
+    "label": "Data Lake Analytics"
+  },
+  {
+    "value": "Device Update for IoT Hub",
+    "label": "Device Update for IoT Hub"
+  },
+  {
+    "value": "Diagnostic Logs",
+    "label": "Diagnostic Logs"
+  },
+  {
+    "value": "Event Grid",
+    "label": "Event Grid"
+  },
+  {
+    "value": "Event Hubs",
+    "label": "Event Hubs"
+  },
+  {
+    "value": "ExpressRoute \\ ExpressRoute Circuits",
+    "label": "ExpressRoute \\ ExpressRoute Circuits"
+  },
+  {
+    "value": "ExpressRoute \\ ExpressRoute Gateways",
+    "label": "ExpressRoute \\ ExpressRoute Gateways"
+  },
+  {
+    "value": "Functions",
+    "label": "Functions"
+  },
+  {
+    "value": "Global Secure Access",
+    "label": "Global Secure Access"
+  },
+  {
+    "value": "HDInsight",
+    "label": "HDInsight"
+  },
+  {
+    "value": "Health Bot",
+    "label": "Health Bot"
+  },
+  {
+    "value": "HockeyApp",
+    "label": "HockeyApp"
+  },
+  {
+    "value": "Internet Analyzer",
+    "label": "Internet Analyzer"
+  },
+  {
+    "value": "IoT Central",
+    "label": "IoT Central"
+  },
+  {
+    "value": "IoT Hub \\ IoT Hub Device Provisioning Service",
+    "label": "IoT Hub \\ IoT Hub Device Provisioning Service"
+  },
+  {
+    "value": "Key Vault",
+    "label": "Key Vault"
+  },
+  {
+    "value": "Load Balancer",
+    "label": "Load Balancer"
+  },
+  {
+    "value": "Log Analytics",
+    "label": "Log Analytics"
+  },
+  {
+    "value": "Logic Apps",
+    "label": "Logic Apps"
+  },
+  {
+    "value": "Machine Learning Services",
+    "label": "Machine Learning Services"
+  },
+  {
+    "value": "Machine Learning Services \\ Machine Learning Experimentation Service",
+    "label": "Machine Learning Services \\ Machine Learning Experimentation Service"
+  },
+  {
+    "value": "Machine Learning Services \\ Machine Learning Model Management",
+    "label": "Machine Learning Services \\ Machine Learning Model Management"
+  },
+  {
+    "value": "Machine Learning Studio",
+    "label": "Machine Learning Studio"
+  },
+  {
+    "value": "Marketplace",
+    "label": "Marketplace"
+  },
+  {
+    "value": "Media Services \\ Encoding",
+    "label": "Media Services \\ Encoding"
+  },
+  {
+    "value": "Media Services \\ Streaming",
+    "label": "Media Services \\ Streaming"
+  },
+  {
+    "value": "Microsoft Azure Attestation",
+    "label": "Microsoft Azure Attestation"
+  },
+  {
+    "value": "Microsoft Azure portal",
+    "label": "Microsoft Azure portal"
+  },
+  {
+    "value": "Microsoft Copilot for Security",
+    "label": "Microsoft Copilot for Security"
+  },
+  {
+    "value": "Microsoft Defender External Attack Surface Management",
+    "label": "Microsoft Defender External Attack Surface Management"
+  },
+  {
+    "value": "Microsoft Defender for Cloud",
+    "label": "Microsoft Defender for Cloud"
+  },
+  {
+    "value": "Microsoft Defender for IoT",
+    "label": "Microsoft Defender for IoT"
+  },
+  {
+    "value": "Microsoft Dev Box",
+    "label": "Microsoft Dev Box"
+  },
+  {
+    "value": "Microsoft Entra Permissions Management",
+    "label": "Microsoft Entra Permissions Management"
+  },
+  {
+    "value": "Microsoft Genomics",
+    "label": "Microsoft Genomics"
+  },
+  {
+    "value": "Microsoft Graph",
+    "label": "Microsoft Graph"
+  },
+  {
+    "value": "Microsoft Playwright Testing",
+    "label": "Microsoft Playwright Testing"
+  },
+  {
+    "value": "Mobile Engagement",
+    "label": "Mobile Engagement"
+  },
+  {
+    "value": "Multi-Factor Authentication",
+    "label": "Multi-Factor Authentication"
+  },
+  {
+    "value": "Network Infrastructure",
+    "label": "Network Infrastructure"
+  },
+  {
+    "value": "Network Security Perimeter",
+    "label": "Network Security Perimeter"
+  },
+  {
+    "value": "Network Watcher",
+    "label": "Network Watcher"
+  },
+  {
+    "value": "NGINXaaS",
+    "label": "NGINXaaS"
+  },
+  {
+    "value": "Notification Hubs",
+    "label": "Notification Hubs"
+  },
+  {
+    "value": "Oracle Database@Azure",
+    "label": "Oracle Database@Azure"
+  },
+  {
+    "value": "Power BI Embedded",
+    "label": "Power BI Embedded"
+  },
+  {
+    "value": "Recovery Services vault",
+    "label": "Recovery Services vault"
+  },
+  {
+    "value": "Redis Cache",
+    "label": "Redis Cache"
+  },
+  {
+    "value": "Remote Rendering",
+    "label": "Remote Rendering"
+  },
+  {
+    "value": "SAP HANA on Azure Large Instances",
+    "label": "SAP HANA on Azure Large Instances"
+  },
+  {
+    "value": "Scheduler",
+    "label": "Scheduler"
+  },
+  {
+    "value": "Service Bus",
+    "label": "Service Bus"
+  },
+  {
+    "value": "Service Fabric",
+    "label": "Service Fabric"
+  },
+  {
+    "value": "Site Recovery",
+    "label": "Site Recovery"
+  },
+  {
+    "value": "Speech Services",
+    "label": "Speech Services"
+  },
+  {
+    "value": "SQL Data Warehouse",
+    "label": "SQL Data Warehouse"
+  },
+  {
+    "value": "SQL Database",
+    "label": "SQL Database"
+  },
+  {
+    "value": "SQL Managed Instance",
+    "label": "SQL Managed Instance"
+  },
+  {
+    "value": "SQL Server on Azure Virtual Machines",
+    "label": "SQL Server on Azure Virtual Machines"
+  },
+  {
+    "value": "SQL Server Stretch Database",
+    "label": "SQL Server Stretch Database"
+  },
+  {
+    "value": "Storage",
+    "label": "Storage"
+  },
+  {
+    "value": "StorSimple",
+    "label": "StorSimple"
+  },
+  {
+    "value": "Stream Analytics",
+    "label": "Stream Analytics"
+  },
+  {
+    "value": "Subscription Management",
+    "label": "Subscription Management"
+  },
+  {
+    "value": "Time Series Insights",
+    "label": "Time Series Insights"
+  },
+  {
+    "value": "Traffic Manager",
+    "label": "Traffic Manager"
+  },
+  {
+    "value": "Trusted Signing",
+    "label": "Trusted Signing"
+  },
+  {
+    "value": "Universal Print",
+    "label": "Universal Print"
+  },
+  {
+    "value": "Update management center",
+    "label": "Update management center"
+  },
+  {
+    "value": "Virtual Machine Scale Sets",
+    "label": "Virtual Machine Scale Sets"
+  },
+  {
+    "value": "Virtual Machines",
+    "label": "Virtual Machines"
+  },
+  {
+    "value": "Virtual Network",
+    "label": "Virtual Network"
+  },
+  {
+    "value": "Virtual Network NAT",
+    "label": "Virtual Network NAT"
+  },
+  {
+    "value": "VPN Gateway",
+    "label": "VPN Gateway"
+  },
+  {
+    "value": "VPN Gateway \\ Virtual WAN",
+    "label": "VPN Gateway \\ Virtual WAN"
+  },
+  {
+    "value": "Windows 10 IoT Core Services",
+    "label": "Windows 10 IoT Core Services"
+  },
+  {
+    "value": "Security Center",
+    "label": "Security Center"
+  },
+  {
+    "value": "Windows Virtual Desktop",
+    "label": "Windows Virtual Desktop"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "value": "ServiceIssue",
+    "label": "Service Issue"
+  },
+  {
+    "value": "PlannedMaintenance",
+    "label": "Planned Maintenance"
+  },
+  {
+    "value": "HealthAdvisory",
+    "label": "Health Advisory"
+  },
+  {
+    "value": "SecurityAdvisory",
+    "label": "Security Advisory"
+  }
+]
