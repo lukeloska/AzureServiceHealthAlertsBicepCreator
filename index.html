@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bicep Template Generator for Azure Service Health Alerts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-top">
+        <div>
+          <h1>Bicep Template Generator</h1>
+          <h2>Azure Service Health Alerts</h2>
+        </div>
+        <button
+          id="darkModeToggle"
+          class="dark-mode-toggle"
+          aria-label="Toggle dark mode"
+          title="Toggle dark mode"
+        >
+          🌙
+        </button>
+      </div>
+
+      <form id="bicepForm">
+        <label for="subscriptionId"
+          >Subscription ID <span aria-label="required">*</span></label
+        >
+        <input
+          type="text"
+          id="subscriptionId"
+          name="subscriptionId"
+          placeholder="00000000-0000-0000-0000-000000000000"
+          aria-describedby="subscriptionIdHint"
+          aria-required="true"
+          required
+        />
+        <div id="subscriptionIdHint" class="hint-text">
+          Format: 00000000-0000-0000-0000-000000000000
+        </div>
+        <label for="alertName"
+          >Alert Name <span aria-label="required">*</span></label
+        >
+        <input
+          type="text"
+          id="alertName"
+          name="alertName"
+          aria-describedby="alertNameHint"
+          aria-required="true"
+          required
+        />
+        <div id="alertNameHint" class="hint-text">
+          3-260 characters, no special characters: &lt; &gt; % &amp; \ ? /
+        </div>
+
+        <label for="service"
+          >Service <span aria-label="required">*</span>
+          <span
+            class="hint-text"
+            style="display: block; font-weight: normal; margin-top: 4px"
+          >
+            Hold Ctrl (or Cmd) to select multiple
+          </span>
+        </label>
+        <select
+          id="service"
+          name="service"
+          multiple
+          required
+          aria-describedby="serviceHint"
+        >
+          <option value="">Loading services...</option>
+        </select>
+        <div id="serviceHint" class="hint-text" style="display: none"></div>
+
+        <label for="eventType"
+          >Event Type <span aria-label="required">*</span>
+          <span
+            class="hint-text"
+            style="display: block; font-weight: normal; margin-top: 4px"
+          >
+            Hold Ctrl (or Cmd) to select multiple
+          </span>
+        </label>
+        <select
+          id="eventType"
+          name="eventType"
+          multiple
+          required
+          aria-describedby="eventTypeHint"
+        >
+          <option value="">Loading event types...</option>
+        </select>
+        <div id="eventTypeHint" class="hint-text" style="display: none"></div>
+
+        <label for="region"
+          >Region <span aria-label="required">*</span>
+          <span
+            class="hint-text"
+            style="display: block; font-weight: normal; margin-top: 4px"
+          >
+            Hold Ctrl (or Cmd) to select multiple
+          </span>
+        </label>
+        <select
+          id="region"
+          name="region"
+          multiple
+          required
+          aria-describedby="regionHint"
+        >
+          <option value="">Loading regions...</option>
+        </select>
+        <div id="regionHint" class="hint-text" style="display: none"></div>
+
+        <label for="tags">Tags (optional)</label>
+        <div id="tagsContainer" class="small">
+          <!-- Tag rows will be inserted here -->
+        </div>
+        <div
+          style="
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            margin-bottom: 12px;
+          "
+        >
+          <button type="button" id="addTagBtn" style="padding: 6px 10px">
+            Add tag
+          </button>
+          <span class="small" style="margin-left: 8px"
+            >Add key/value tags that will be included in resource `tags`.</span
+          >
+        </div>
+
+        <label for="severity"
+          >Severity (hold Ctrl or Cmd to select multiple)</label
+        >
+        <select id="severity" name="severity" multiple required>
+          <option value="">Loading severity levels...</option>
+        </select>
+
+        <div class="row">
+          <div style="grid-column: 1 / -1">
+            <div
+              style="
+                display: flex;
+                gap: 12px;
+                align-items: center;
+                margin-bottom: 10px;
+              "
+            >
+              <label
+                ><input
+                  type="radio"
+                  name="actionMode"
+                  value="existing"
+                  checked
+                />
+                Use existing Action Group</label
+              >
+              <label
+                ><input type="radio" name="actionMode" value="quick" /> Quick
+                action</label
+              >
+            </div>
+          </div>
+
+          <div id="existingActionGroupInputs">
+            <label for="actionGroupName">Action Group Name</label>
+            <input
+              type="text"
+              id="actionGroupName"
+              name="actionGroupName"
+              placeholder="ag-notify-team"
+            />
+            <label for="actionGroupRg">Action Group Resource Group</label>
+            <input
+              type="text"
+              id="actionGroupRg"
+              name="actionGroupRg"
+              placeholder="rg-alerting"
+            />
+          </div>
+
+          <div id="quickActionInputs" class="hidden">
+            <label for="quickActionGroupName">Action Group Name</label>
+            <input
+              type="text"
+              id="quickActionGroupName"
+              name="quickActionGroupName"
+              placeholder="ag-quick-team"
+            />
+            <label for="quickShortName">Short Name (editable)</label>
+            <input
+              type="text"
+              id="quickShortName"
+              name="quickShortName"
+              placeholder="auto-generated short name"
+            />
+            <label for="quickEmail">Email</label>
+            <input
+              type="email"
+              id="quickEmail"
+              name="quickEmail"
+              placeholder="team@example.com"
+            />
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 12px">
+          <button type="submit">Generate Bicep Template</button>
+          <button
+            type="reset"
+            id="clearBtn"
+            aria-label="Clear all form fields and reset to defaults"
+          >
+            Clear Form
+          </button>
+        </div>
+      </form>
+
+      <div
+        id="output"
+        class="output-card"
+        style="display: none"
+        role="region"
+        aria-label="Generated Bicep template"
+      >
+        <pre><code id="bicepCode" class="language-bicep"></code></pre>
+      </div>
+      <button
+        id="copyBtn"
+        class="copy-btn"
+        disabled
+        aria-label="Copy generated template to clipboard"
+      >
+        Copy to Clipboard
+      </button>
+      <div
+        id="toast"
+        class="toast"
+        role="status"
+        aria-live="polite"
+        aria-atomic="true"
+      >
+        <span id="toastMessage"></span>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="js/dataLoader.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
