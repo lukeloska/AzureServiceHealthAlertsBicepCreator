@@ -1,0 +1,226 @@
+[
+  {
+    "value": "global",
+    "label": "Global"
+  },
+  {
+    "value": "australiacentral",
+    "label": "Australia Central"
+  },
+  {
+    "value": "australiacentral2",
+    "label": "Australia Central 2"
+  },
+  {
+    "value": "australiaeast",
+    "label": "Australia East"
+  },
+  {
+    "value": "australiasoutheast",
+    "label": "Australia Southeast"
+  },
+  {
+    "value": "austriaeast",
+    "label": "Austria East"
+  },
+  {
+    "value": "belgiumcentral",
+    "label": "Belgium Central"
+  },
+  {
+    "value": "brazilsouth",
+    "label": "Brazil South"
+  },
+  {
+    "value": "brazilsoutheast",
+    "label": "Brazil Southeast"
+  },
+  {
+    "value": "canadacentral",
+    "label": "Canada Central"
+  },
+  {
+    "value": "canadaeast",
+    "label": "Canada East"
+  },
+  {
+    "value": "centralindia",
+    "label": "Central India"
+  },
+  {
+    "value": "centralus",
+    "label": "Central US"
+  },
+  {
+    "value": "chilecentral",
+    "label": "Chile Central"
+  },
+  {
+    "value": "eastasia",
+    "label": "East Asia"
+  },
+  {
+    "value": "eastus",
+    "label": "East US"
+  },
+  {
+    "value": "eastus2",
+    "label": "East US 2"
+  },
+  {
+    "value": "eastus3",
+    "label": "East US 3"
+  },
+  {
+    "value": "francecentral",
+    "label": "France Central"
+  },
+  {
+    "value": "francesouth",
+    "label": "France South"
+  },
+  {
+    "value": "germanynorth",
+    "label": "Germany North"
+  },
+  {
+    "value": "germanywestcentral",
+    "label": "Germany West Central"
+  },
+  {
+    "value": "indonesiacentral",
+    "label": "Indonesia Central"
+  },
+  {
+    "value": "israelcentral",
+    "label": "Israel Central"
+  },
+  {
+    "value": "italynorth",
+    "label": "Italy North"
+  },
+  {
+    "value": "japaneast",
+    "label": "Japan East"
+  },
+  {
+    "value": "japanwest",
+    "label": "Japan West"
+  },
+  {
+    "value": "koreacentral",
+    "label": "Korea Central"
+  },
+  {
+    "value": "koreasouth",
+    "label": "Korea South"
+  },
+  {
+    "value": "malaysiawest",
+    "label": "Malaysia West"
+  },
+  {
+    "value": "mexicocentral",
+    "label": "Mexico Central"
+  },
+  {
+    "value": "newzealandnorth",
+    "label": "New Zealand North"
+  },
+  {
+    "value": "northamerica",
+    "label": "North America"
+  },
+  {
+    "value": "northeurope",
+    "label": "North Europe"
+  },
+  {
+    "value": "norwayeast",
+    "label": "Norway East"
+  },
+  {
+    "value": "norwaywest",
+    "label": "Norway West"
+  },
+  {
+    "value": "polandcentral",
+    "label": "Poland Central"
+  },
+  {
+    "value": "qatarcentral",
+    "label": "Qatar Central"
+  },
+  {
+    "value": "southafricanorth",
+    "label": "South Africa North"
+  },
+  {
+    "value": "southafricawest",
+    "label": "South Africa West"
+  },
+  {
+    "value": "southcentralus",
+    "label": "South Central US"
+  },
+  {
+    "value": "southeastasia",
+    "label": "Southeast Asia"
+  },
+  {
+    "value": "southindia",
+    "label": "South India"
+  },
+  {
+    "value": "swedencentral",
+    "label": "Sweden Central"
+  },
+  {
+    "value": "switzerlandnorth",
+    "label": "Switzerland North"
+  },
+  {
+    "value": "switzerlandwest",
+    "label": "Switzerland West"
+  },
+  {
+    "value": "uaecentral",
+    "label": "UAE Central"
+  },
+  {
+    "value": "uaenorth",
+    "label": "UAE North"
+  },
+  {
+    "value": "uksouth",
+    "label": "UK South"
+  },
+  {
+    "value": "ukwest",
+    "label": "UK West"
+  },
+  {
+    "value": "westcentralus",
+    "label": "West Central US"
+  },
+  {
+    "value": "westeurope",
+    "label": "West Europe"
+  },
+  {
+    "value": "westindia",
+    "label": "West India"
+  },
+  {
+    "value": "westus",
+    "label": "West US"
+  },
+  {
+    "value": "westus2",
+    "label": "West US 2"
+  },
+  {
+    "value": "westus3",
+    "label": "West US 3"
+  }
+]

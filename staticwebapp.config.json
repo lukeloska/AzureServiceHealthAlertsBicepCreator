@@ -1,0 +1,20 @@
+{
+  "routes": [
+    {
+      "route": "/*",
+      "serve": "/index.html",
+      "statusCode": 200
+    }
+  ],
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/index.html"
+    }
+  },
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": [
+      "*.{css,scss,js,html,woff,woff2,eot,ttf,otf,svg,jpg,jpeg,png,gif,ico,json}"
+    ]
+  }
+}
